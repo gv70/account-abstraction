@@ -55,7 +55,7 @@ const GaslessHome: React.FC = () => {
 							<>
 								<p className="font-semibold text-center mb-2">
 									You own {ownedNfts?.[0]?.quantityOwned.toString() || "0"}{" "}
-									Kittens
+									NFT
 								</p>
 								<TransactionButton
 									transaction={() =>
