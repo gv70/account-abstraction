@@ -36,17 +36,17 @@ function Header() {
 			/>
 
 			<h1 className="text-2xl md:text-6xl font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
-				Account Abstraction Examples
+				Account Abstraction examples
 			</h1>
 
 			<p className="text-zinc-300 text-base">
-				Collection of ERC4337 examples using the thirdweb{" "}
+				Collection of ERC4337 examples {" "}
 				<a
 					className="text-purple-400"
 					target="_blank"
 					href="https://portal.thirdweb.com/connect"
 				>
-					Connect SDK
+					
 				</a>
 				.
 			</p>
@@ -67,12 +67,6 @@ function Menu() {
 				title="Multichain transactions"
 				href="/multichain"
 				description="Execute transactions on different chains maintaining the same smart account address."
-			/>
-
-			<MenuItem
-				title="Session keys"
-				href="/session-keys"
-				description="Add other admins and signers to your smart accounts"
 			/>
 
 			<MenuItem
@@ -104,9 +98,9 @@ function Footer() {
 			<Link
 				className="text-center text-sm text-gray-400"
 				target="_blank"
-				href="https://github.com/thirdweb-example/account-abstraction"
+				href="https://www.coinbase.com/en/learn/crypto-glossary/what-is-account-abstraction-and-why-is-it-important"
 			>
-				View code on GitHub
+				Learn more here
 			</Link>
 		</div>
 	);
