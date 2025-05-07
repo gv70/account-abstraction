@@ -40,7 +40,7 @@ function Header() {
 			</h1>
 
 			<p className="text-zinc-300 text-base">
-				Collection of ERC4337 examples {" "}
+				Collection of ERC4337 examples{" "}
 				<a
 					className="text-purple-400"
 					target="_blank"
