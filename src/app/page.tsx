@@ -36,7 +36,7 @@ function Header() {
 			/>
 
 			<h1 className="text-2xl md:text-6xl font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
-				Account Abstraction examples
+				Account abstraction examples
 			</h1>
 
 			<p className="text-zinc-300 text-base">
@@ -48,7 +48,7 @@ function Header() {
 				>
 					
 				</a>
-				.
+				
 			</p>
 		</header>
 	);
