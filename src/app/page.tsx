@@ -27,13 +27,13 @@ function Header() {
 	return (
 		<header className="flex flex-col items-center mb-20 md:mb-20">
 			<Image
-				src={thirdwebIcon}
-				alt=""
-				width={120}
-				style={{
-					filter: "drop-shadow(0px 0px 24px #a726a9a8)",
-				}}
-			/>
+  src={thirdwebIcon}
+  alt=""
+  width={120}
+  style={{
+    filter: "drop-shadow(0px 0px 0px #000)"  // no blur, black shadow
+  }}
+/>
 
 			<h1 className="text-2xl md:text-6xl font-semibold md:font-bold tracking-tighter mb-6 text-zinc-100">
 				Account abstraction examples
