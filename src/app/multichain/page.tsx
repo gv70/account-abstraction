@@ -89,7 +89,7 @@ const NFTClaimer: React.FC<NFTClaimerProps> = (props: NFTClaimerProps) => {
 					{props.receiverAddress ? (
 						<>
 							<p className="font-semibold text-center my-2">
-								You own {ownedNfts?.toString() || "0"} Kittens on{" "}
+								You own {ownedNfts?.toString() || "0"} NFT on{" "}
 								{props.dropContract.chain.name}
 							</p>
 							<TransactionButton
@@ -113,7 +113,7 @@ const NFTClaimer: React.FC<NFTClaimerProps> = (props: NFTClaimerProps) => {
 						</>
 					) : (
 						<p className="text-center mt-8">
-							Login to claim this Kitten on {props.dropContract.chain.name}!
+							Login to claim this NFT on {props.dropContract.chain.name}!
 						</p>
 					)}
 				</>
