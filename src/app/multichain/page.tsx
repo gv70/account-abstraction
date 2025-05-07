@@ -21,7 +21,7 @@ const GaslessHome: React.FC = () => {
 			<h1 className="text-center text-2xl md:text-6xl font-semibold md:font-bold tracking-tighter mb-12 text-zinc-100">
 				Multichain
 				<br />
-				Sponsored Transactions
+				sponsored transactions
 			</h1>
 			<ConnectButton
 				client={client}
