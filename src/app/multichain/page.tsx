@@ -35,7 +35,7 @@ const GaslessHome: React.FC = () => {
 				<NFTClaimer
 					receiverAddress={smartAccount?.address}
 					dropContract={getContract({
-						address: "0x638263e3eAa3917a53630e61B1fBa685308024fa",
+						address: "0xd35F1bE71EC781400ED4b19A1fFF6e0666037189",
 						chain: baseSepolia,
 						client,
 					})}
@@ -45,7 +45,7 @@ const GaslessHome: React.FC = () => {
 				<NFTClaimer
 					receiverAddress={smartAccount?.address}
 					dropContract={getContract({
-						address: "0x6A7a26c9a595E6893C255C9dF0b593e77518e0c3",
+						address: "0x51F5ad46db789Db86647B1BC8C4aD5085efbf734",
 						chain: arbitrumSepolia,
 						client,
 					})}
