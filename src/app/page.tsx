@@ -60,13 +60,13 @@ function Menu() {
 			<MenuItem
 				title="Sponsored transactions"
 				href="/gasless"
-				description="Execute transactions without requiring users to hold ETH."
+				description="Mint NFT without requiring to hold ETH."
 			/>
 
 			<MenuItem
 				title="Multichain transactions"
 				href="/multichain"
-				description="Execute transactions on different chains maintaining the same smart account address."
+				description="Mint NFTs on different chains maintaining the same smart account address."
 			/>
 
 			<MenuItem
